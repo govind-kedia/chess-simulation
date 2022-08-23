@@ -40,7 +40,7 @@ public class ChessMoveFinder {
             }catch (IllegalPositionException exception){
                 System.out.println(exception.getMessage() + SAMPLE_INPUT_FORMAT_MESSAGE);
             }catch (RuntimeException exception){
-                System.out.println("Invalid Input: "+SAMPLE_INPUT_FORMAT_MESSAGE);
+                System.out.println("Invalid Input: " + SAMPLE_INPUT_FORMAT_MESSAGE);
             }
 
         }
